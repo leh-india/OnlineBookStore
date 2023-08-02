@@ -58,7 +58,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>boby99-artifactory-primary-0-snapshots</name>
-        <url>https://boby99.jfrog.io/artifactory/onlinebook-snapshot/</url>
+        <url>https://boby99.jfrog.io/artifactory/onlinebook-snapshot</url>
     </snapshotRepository>
     <repository>
         <id>releases</id>
