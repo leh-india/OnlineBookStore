@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>onlinebookstore</groupId>
   <artifactId>onlinebookstore</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-RELEASE</version>
   <packaging>war</packaging>  
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -60,5 +60,10 @@
         <name>boby99-artifactory-primary-0-snapshots</name>
         <url>https://boby99.jfrog.io/artifactory/onlinebook-snapshot/</url>
     </snapshotRepository>
+    <repository>
+        <id>releases</id>
+        <name>boby99-artifactory-primary-0-releases</name>
+        <url>https://boby99.jfrog.io/artifactory/onlinebook-release</url>
+    </repository>
 </distributionManagement>
 </project>
